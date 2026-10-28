@@ -39,7 +39,10 @@ curl -fsSL https://raw.githubusercontent.com/gtc65/zgp-video-skills/main/install
 
 ### C. Claude 桌面版（Cowork）／claude.ai
 
-1. 到 [Releases](https://github.com/gtc65/zgp-video-skills/releases/latest) 下載三個 zip（每個技能一個）。
+1. 下載三個 zip（每個技能一個）：
+   [taiwan-narration.zip](https://github.com/gtc65/zgp-video-skills/raw/main/dist/taiwan-narration.zip)、
+   [photo-recap-video.zip](https://github.com/gtc65/zgp-video-skills/raw/main/dist/photo-recap-video.zip)、
+   [hyperframes-explainer.zip](https://github.com/gtc65/zgp-video-skills/raw/main/dist/hyperframes-explainer.zip)
 2. claude.ai → 設定 → Capabilities（功能）→ Skills → 上傳 zip。
 3. 技能存在帳號裡，同一個帳號的每台電腦都能用，不用每台裝。
 
@@ -73,6 +76,7 @@ plugins/school-video/
     photo-recap-video/                SKILL.md、scripts/（contact_sheet、cards、compose_music、assemble、deliver）、templates/
     hyperframes-explainer/            SKILL.md、template/（整個可複製的專案範本＋兩個 bat）
 install/                              install.ps1、install.sh
+dist/                                 三個技能的 zip（上傳 claude.ai 用；改內容後跑 python tools/build_zips.py）
 ```
 
 ## 授權

@@ -50,4 +50,4 @@ if ($py) {
 
 Write-Host "`n完成！重新開啟 Claude Code，問「你有哪些技能？」應該看得到：" -ForegroundColor Green
 $Skills | ForEach-Object { Write-Host "  - $_" }
-Write-Host "Claude 桌面版（Cowork）／claude.ai 請改用 Releases 頁面的 zip 上傳（見 README）。"
+Write-Host "Claude 桌面版（Cowork）／claude.ai 請改用 dist 資料夾的 zip 上傳（見 README）。"
