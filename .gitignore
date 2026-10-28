@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+dist/
+voice-cache/
+.tts_cache.json

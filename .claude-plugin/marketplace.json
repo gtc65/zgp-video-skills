@@ -1,0 +1,18 @@
+{
+  "name": "zgp-video-skills",
+  "owner": { "name": "gtc65" },
+  "metadata": {
+    "description": "校園影片製作技能：台灣腔旁白、照片回顧影片、HyperFrames 說明影片",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "school-video",
+      "source": "./plugins/school-video",
+      "description": "校園影片製作三件組：台灣腔旁白（edge-tts）、照片活動回顧片、HyperFrames 動畫說明片",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["video", "tts", "taiwan", "education", "hyperframes", "zh-TW"]
+    }
+  ]
+}

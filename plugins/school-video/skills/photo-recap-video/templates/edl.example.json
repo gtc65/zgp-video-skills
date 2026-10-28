@@ -1,0 +1,89 @@
+{
+ "size": [
+  1920,
+  1080
+ ],
+ "fps": 30,
+ "out": "cut/film.mp4",
+ "transition": 0.5,
+ "segments": [
+  {
+   "id": "T1",
+   "type": "card",
+   "file": "cards/T1.png",
+   "dur": 4,
+   "anim": "pop"
+  },
+  {
+   "id": "P1",
+   "type": "image",
+   "file": "photos/IMG_00.jpg",
+   "dur": 4,
+   "motion": "in",
+   "fit": "blur"
+  },
+  {
+   "id": "P2",
+   "type": "image",
+   "file": "photos/IMG_01.jpg",
+   "dur": 4,
+   "motion": "left"
+  },
+  {
+   "id": "C1",
+   "type": "card",
+   "file": "cards/C1.png",
+   "dur": 4
+  },
+  {
+   "id": "P3",
+   "type": "image",
+   "file": "photos/IMG_02.jpg",
+   "dur": 4,
+   "motion": "out"
+  },
+  {
+   "id": "END",
+   "type": "color",
+   "color": "#000000",
+   "dur": 2
+  }
+ ],
+ "subtitles": {
+  "items": [
+   {
+    "seg": "P1",
+    "at": 0.3,
+    "dur": 2.5,
+    "text": "歡迎收看英語日活動回顧！"
+   },
+   {
+    "seg": "P3",
+    "at": 0.3,
+    "dur": 2,
+    "text": "大家都玩得很開心！"
+   }
+  ]
+ },
+ "voice": [
+  {
+   "file": "旁白/dry_N1.wav",
+   "seg": "P1",
+   "at": 0.3
+  },
+  {
+   "file": "旁白/dry_N2.wav",
+   "seg": "P3",
+   "at": 0.3
+  }
+ ],
+ "music": {
+  "file": "bgm.wav",
+  "gain": -4,
+  "duck": true
+ },
+ "loudness": {
+  "I": -16,
+  "TP": -1.5
+ }
+}

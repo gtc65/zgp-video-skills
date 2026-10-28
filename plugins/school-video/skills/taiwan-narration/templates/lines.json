@@ -1,0 +1,15 @@
+{
+ "out": "旁白",
+ "voices": {
+  "zh": {"voice": "zh-TW-HsiaoChenNeural", "rate": "+0%", "pitch": "+0Hz"},
+  "en": {"voice": "en-US-AvaNeural", "rate": "-5%"}
+ },
+ "default": "zh",
+ "lines": [
+  {"id": "N1", "text": "各位同學好！｜今天要介紹｜本校的英語日活動。"},
+  {"id": "N2", "text": "活動在 11/6 舉行，", "say": "活動在十一月六號舉行，"},
+  {"id": "E1", "text": "Let's go!", "v": "en", "gap": 1.0},
+  {"id": "N3", "text": "我們一起來看看！", "rate": "+4%"}
+ ],
+ "timeline": {"lead": 1.2, "gap_line": 0.5, "tail": 3.0}
+}

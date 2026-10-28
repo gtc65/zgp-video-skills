@@ -1,0 +1,8 @@
+{
+  "name": "school-video",
+  "version": "1.0.0",
+  "description": "校園影片製作三件組：台灣腔旁白（edge-tts）、照片活動回顧片、HyperFrames 動畫說明片",
+  "author": { "name": "gtc65" },
+  "license": "MIT",
+  "keywords": ["video", "tts", "taiwan", "education", "hyperframes", "zh-TW"]
+}
